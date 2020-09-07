@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 // https://ameblo.jp/yu-xpe5995/entry-12472220339.html
 
