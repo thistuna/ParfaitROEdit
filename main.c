@@ -5,7 +5,7 @@
 
 int main(int argc, char** argv){
 	if(argc<2) {
-		puts("no arg");
+		puts("Parfait.exeを指定してください");
 		system("pause");
 		return -1;
 	}
@@ -14,20 +14,20 @@ int main(int argc, char** argv){
 
 	fp = fopen(argv[1],"rb+");
 	if(!fp){
-		puts("no file");
+		puts("ファイルを開けません");
 		system("pause");
 		return -1;
 	}
 
 	fseek(fp,0x0001111F,SEEK_SET);
 	if(getc(fp)!=0x0F){
-		puts("diffrent file");
+		puts("指定したファイルが違います");
 		system("pause");
 		return -1;
 	}
 
 	if(getc(fp)!=0x85){
-		puts("diffrent file");
+		puts("指定したファイルが違います");
 		system("pause");
 		return -1;
 	}
