@@ -37,6 +37,8 @@ int main(int argc, char** argv){
 		putc(0xE9,fp);
 	}
 
+	fclose(fp);
+
 	puts("success");
 	system("pause");
 
