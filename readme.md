@@ -7,3 +7,5 @@ https://ameblo.jp/yu-xpe5995/entry-12472220339.html を参考に，
 
 Program Files等管理者権限が必要なフォルダにインストールしているとアクセスできないので，
 Parfait.exeを一度ドキュメントなどに移動してから実行して元の場所に戻せばいい．
+
+[実行可能ファイル](https://github.com/thistuna/ParfaitROEdit/files/5259968/ParfaitROEdit.zip)
